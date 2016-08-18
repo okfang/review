@@ -1,3 +1,4 @@
+package com.tjoe.test;
 
 enum Colors{
     red, yellow, blue, green, black;

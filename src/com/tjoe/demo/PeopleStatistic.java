@@ -1,3 +1,5 @@
+package com.tjoe.demo;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
@@ -69,7 +71,7 @@ class Entrance implements Runnable {
                 count.increment();
             }
         }
-        System.out.println("Entrance["+id+"] stopping!");
+        System.out.println("com.tjoe.demo.Entrance["+id+"] stopping!");
     }
 
     public int getValue(){
@@ -85,7 +87,7 @@ class Entrance implements Runnable {
 
     @Override
     public String toString() {
-        return "Entrance["+id+"]: ";
+        return "com.tjoe.demo.Entrance["+id+"]: ";
     }
 }
 
